@@ -10,7 +10,6 @@ pyyaml
 dataclasses
 fvcore
 tabulate
-torch
 torchvision
 psutil
 setuptools
