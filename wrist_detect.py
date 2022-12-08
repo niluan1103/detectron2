@@ -27,6 +27,7 @@ setup_logger()
 # Inference with Detectron2 saved weight
 cfg = get_cfg()
 cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml"))
+cfg.MODEL.DEVICE = 'cpu'
 cfg.MODEL.ROI_HEADS.NUM_CLASSES = 2
 cfg.MODEL.WEIGHTS = "datasets/Wrist-Junk-8/detectron2_wrist_junk_model_final_300.pth"
 cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5   # set the testing threshold for this model
