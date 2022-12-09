@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-import wrist_detect
+#import wrist_detect
 import numpy as np
 
 if __name__ == '__main__':
