@@ -1,21 +1,14 @@
-streamlit
+# Need to get the CPU version of torch packages from here:
+# These are needed because the deployed app doesn't have much room for the full version
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.1+cpu
+torchvision==0.9.1+cpu
+
+#These other packages can be found on PyPi
+streamlit==1.4.0
 numpy
 pillow
 opencv-contrib-python
 tqdm
-omegaconf
-torchvision
-psutil
-setuptools
 matplotlib
-termcolor
-packaging
-cloudpickle
-pycocotools
-iopath
-pyyaml
-dataclasses
-fvcore
-tabulate
-timm
 
