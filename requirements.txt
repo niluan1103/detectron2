@@ -5,10 +5,5 @@ torch==1.8.1+cpu
 torchvision==0.9.1+cpu
 
 #These other packages can be found on PyPi
-streamlit==1.4.0
-numpy
-pillow
-opencv-contrib-python
-tqdm
-matplotlib
+streamlit
 
