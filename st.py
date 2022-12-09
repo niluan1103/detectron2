@@ -15,5 +15,5 @@ if __name__ == '__main__':
 
         st.text('Inferencing')
         img = np.array(img)
-        visualized_img = wrist_detect.for_streamlit(img)
-        st.image(visualized_img,'Visualized prediction')
+        #visualized_img = wrist_detect.for_streamlit(img)
+        #st.image(visualized_img,'Visualized prediction')
